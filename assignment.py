@@ -48,6 +48,6 @@ table.add_employee(Employee("161F99", "Jaya", 51, 82100))
 table.add_employee(Employee("171E20", "Tejas", 30, 55000))
 table.add_employee(Employee("171G30", "Ajay", 45, 44000))
 
-sorting_option = int(input("Enter the sorting number: "))
+sorting_option = int(input("Enter the sorting: "))
 table.sort_table(sorting_option)
 table.print_table()
