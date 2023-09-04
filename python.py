@@ -40,6 +40,7 @@ class EmployeeTable:
         for employee in self.employee_data:
             print(employee)
 
+
 table = EmployeeTable()
 
 table.add_employee(Employee("161E90", "Raman", 41, 56000))
@@ -49,5 +50,6 @@ table.add_employee(Employee("171E20", "Tejas", 30, 55000))
 table.add_employee(Employee("171G30", "Ajay", 45, 44000))
 
 sorting_option = int(input("Enter the sorting: "))
+
 table.sort_table(sorting_option)
 table.print_table()
